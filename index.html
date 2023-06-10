@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="https://www.dreamjob.ma/wp-content/uploads/2021/02/JESA-OCP-Emploi-Recrutement-2.png">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-image: url("Untitled.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#">
+          <img src="maryam.png" alt="Logo">
+        </a>
+        
+        <ul class="nav-links">
+          <li><a href="https://maryamelamaraoui.github.io/jesa_calculator_D/">Diameter Calculator</a></li>
+          <li><a href="https://maryamelamaraoui.github.io/jesa_calculator_T/">Thickness Calculator</a></li>
+          <li><a href="https://www.jesagroup.com/news">News</a></li>
+          <li><a href="https://www.jesagroup.com/about.html">About us</a></li>
+          <li><a href="https://www.jesagroup.com/expertise.html">Expertise</a></li>
+          <li><a href="https://www.jesagroup.com/contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="bmr1-calculator">
+      <h2>Restriction Orifice Thickness Calculator</h2>
+      <div class="controls">
+        <form>
+          <div class="maryamweight">
+            <div>
+              <h3>P (kPa)</h3>
+              <input type="text" id="ΔP" value="00" />
+              <div class="unit">m</div>
+            </div>
+            <div>
+              <h3>S (KPa)</h3>
+              <input type="text" id="S" value="00" />
+              <div class="unit">m</div>
+            </div>
+          </div>
+
+          <div class="maryamweight1">
+            <div>
+              <h3>Dg (mm)</h3>
+              <input type="text" id="Dg" value="00" />
+              <div class="unit">m</div>
+            </div>
+            <div>
+              <h3>E</h3>
+              <input type="text" id="E" value="00" />
+              <div class="unit">m</div>
+            </div>
+          </div>
+
+          <div class="maryamweight2">
+            <div>
+              <h3>C (mm)</h3>
+              <input type="text" id="C" value="00" />
+              <div class="unit">m</div>
+            </div>
+            <div>
+              <h3>p(RTJ)* (mm)</h3>
+              <input type="text" id="pmar" value="00" />
+              <div class="unit">m</div>
+            </div>
+          </div>
+
+          <div>
+            <a href="#">
+              <img src="maryamjesa.jpg" alt="Logo">
+            </a>
+          </div>
+
+
+
+        </form>
+      </div>
+    
+      <div class="maryamresult">
+        <button class="maryamcalculate-btn">Calculate</button>
+
+        <div class="maryamresult-message">
+          <span class="maryamcalories">0,000</span> Millimetres
+        </div>
+
+        <div class="maryamerror-message">
+          <p>Please enter all the details correctly.</p>
+        </div>
+      </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
